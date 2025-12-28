@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJM Cyber | Cyber Security Consulting</title>
+    <style>
+        :root {
+            --navy: #1B3044;
+            --slate: #7A818C;
+            --light-bg: #F8FAFC;
+            --white: #FFFFFF;
+            --dark-text: #2D3748;
+            --card-bg: #FFFFFF;
+            --border: #E2E8F0;
+        }
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: var(--light-bg);
+            color: var(--dark-text);
+            line-height: 1.6;
+        }
+        header {
+            background: var(--white);
+            text-align: center;
+            padding: 80px 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .logo-container {
+            max-width: 300px;
+            margin: 0 auto 20px;
+        }
+        .logo-container img {
+            width: 100%;
+            height: auto;
+        }
+        .logo-text h1 {
+            margin: 0;
+            font-size: 3.8em;
+            font-weight: 700;
+        }
+        .ajm { color: var(--navy); }
+        .cyber { color: var(--slate); font-weight: normal; }
+        .divider {
+            width: 150px;
+            height: 4px;
+            background-color: var(--slate);
+            margin: 25px auto;
+            border-radius: 2px;
+        }
+        header p {
+            font-size: 1.3em;
+            color: var(--slate);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        nav {
+            background-color: var(--navy);
+            padding: 15px 0;
+            text-align: center;
+            margin-top: 2px;
+        }
+        nav a {
+            color: var(--white);
+            margin: 0 25px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: opacity 0.3s;
+        }
+        nav a:hover {
+            opacity: 0.8;
+        }
+        section {
+            padding: 100px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        h2 {
+            color: var(--navy);
+            font-size: 2.8em;
+            margin-bottom: 30px;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+        .service-card {
+            background-color: var(--card-bg);
+            padding: 40px 30px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+        .service-card h3 {
+            color: var(--navy);
+            font-size: 1.6em;
+            margin-bottom: 15px;
+        }
+        #about {
+            background-color: var(--white);
+        }
+        #contact {
+            background-color: var(--navy);
+            color: var(--white);
+        }
+        #contact h2, #contact p {
+            color: var(--white);
+        }
+        #contact a {
+            color: #A0D8EF;
+        }
+        footer {
+            background-color: var(--navy);
+            padding: 40px 20px;
+            text-align: center;
+            color: var(--slate);
+            font-size: 0.9em;
+        }
+        @media (max-width: 768px) {
+            .logo-text h1 { font-size: 2.8em; }
+            nav a { display: inline-block; margin: 10px 15px; }
+            section { padding: 80px 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="ajm-cyber-logo.png" alt="AJM Cyber Logo"> <!-- Replace with your logo file name/path -->
+        </div>
+        <p>Expert Cyber Security Consulting Services You Can Trust</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+		<a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About AJM Cyber</h2>
+        <p style="max-width: 900px; margin: 0 auto; font-size: 1.2em;">
+			At AJM Cyber LLC, we provide expert guidance across the entire lifecycle of a cyber breach. From initial incident response and investigation to recovery, remediation, and future risk mitigation, our team delivers tailored strategies and actionable solutions. Trust our experience to help you minimize damage, restore operations, and strengthen your security posture for the future.
+        </p>
+    </section>
+	
+	
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>Our expert team delivers comprehensive cyber security solutions to protect your organization from evolving digital threats.</p>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Incident Response</h3>
+                <p>Swift and strategic response to cyber incidents, mitigating damage, containing threats, and restoring operations with minimal disruption.</p>
+            </div>
+            <div class="service-card">
+                <h3>Digital Forensics</h3>
+                <p>Expert analysis to investigate cyber incidents, recover critical evidence, and provide actionable insights for legal and remediation purposes.</p>
+            </div>
+            <div class="service-card">
+                <h3>Data Recovery</h3>
+                <p>Specialized services to recover lost or corrupted data.</p>
+            </div>
+            <div class="service-card">
+                <h3>Incident Preparedness</h3>
+                <p>Proactive development of incident response plans, including tabletop exercises and strategies to ensure readiness for cyber threats.</p>
+            </div>
+			 <div class="service-card">
+                <h3>Incident Post-Mortem</h3>
+                <p>Comprehensive lookback to determine strengths and weaknesses of the company’s incident response and provide actionable recommendations.</p>
+            </div>
+			 <div class="service-card">
+                <h3>Cyber Advisory</h3>
+                <p>Strategic guidance for executives and boards to enhance cyber resilience, align with industry standards, and navigate complex security challenges.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch for a free consultation.</p>
+        <p style="font-size: 1.2em;">
+            Email: <a href="mailto:contactus@ajmcyber.com">contactus@ajmcyber.com</a> | 
+            Phone: (856) 430-9702
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 AJM Cyber. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
